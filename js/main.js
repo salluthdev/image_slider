@@ -1,7 +1,6 @@
 const slider = document.querySelector(".slider");
 const btns = document.querySelectorAll(".btn");
 const slides = document.querySelectorAll(".img");
-const backgrounds = document.querySelectorAll('.bg');
 const options = document.querySelectorAll('.option');
 
 var index = 1;
@@ -12,9 +11,6 @@ update();
 
 function update(){
 	slider.style.transform = "translateX("+ (-size * index) +"px)";
-
-	backgrounds.forEach(img => img.classList.remove('show'));
-	backgrounds[op_index].classList.add('show');
 
 	options.forEach(option => option.classList.remove('colored'));
 	options[op_index].classList.add('colored');
