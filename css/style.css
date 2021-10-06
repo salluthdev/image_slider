@@ -111,10 +111,10 @@ ul li
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
-	border: 2.5px solid #2ecc71;
+	border: 2.5px solid #ddd;
 	cursor: pointer;
 }
 ul li.colored
 {
-	background-color: #2ecc71;
+	background: #ddd;
 }
