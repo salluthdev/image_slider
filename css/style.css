@@ -8,15 +8,15 @@ body
 {
 	overflow-x: hidden;
 }
-
-.container{
+.container
+{
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
 }
-
-.slider-container{
+.slider-container
+{
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -24,8 +24,8 @@ body
 	left: 0;
 	z-index: 0;
 }
-
-.slider-container:after{
+.slider-container:after
+{
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -34,8 +34,8 @@ body
 	left: 0;
 	background: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7));
 }
-
-.slider-container > div{
+.slider-container > div
+{
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -46,33 +46,33 @@ body
 	align-items: center;
 	z-index: 1;
 }
-
-.slider-container > div > div{
+.slider-container > div > div
+{
 	overflow: hidden;
 	box-shadow: 0px 0px 61px 0px rgba(0,0,0,0.62);
 }
-
-.slider{
+.slider
+{
 	width: 800px;
 	display: grid;
 	grid-template-columns: repeat(7, 100%);
 	height: 450px;
 }
-
-.img{
+.img
+{
 	position: relative;
 	overflow: hidden;
 }
-
-.img img{
+.img img
+{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
 }
-
-.content{
+.content
+{
 	position:absolute;
 	z-index: 999;
 	width: 800px;
@@ -81,8 +81,8 @@ body
 	top: 50%;
 	transform: translateX(-50%) translateY(-50%);
 }
-
-.btn{
+.btn
+{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -95,20 +95,20 @@ body
 	opacity: 0.5;
 	transition: .3s;
 }
-
-.btn:hover{
+.btn:hover
+{
 	opacity: 0.8;
 }
-
-#prev{
+#prev
+{
 	left: 5%;
 }
-
-#next{
+#next
+{
 	right: 5%;
 }
-
-ul{
+ul
+{
 	position: absolute;
 	list-style: none;
 	display: flex;
@@ -116,8 +116,8 @@ ul{
 	left: 50%;
 	transform: translateX(-50%);
 }
-
-ul li{
+ul li
+{
 	margin: .3rem;
 	width: 18px;
 	height: 18px;
@@ -125,12 +125,12 @@ ul li{
 	border: 2.5px solid #2ecc71;
 	cursor: pointer;
 }
-
-ul li.colored{
+ul li.colored
+{
 	background-color: #2ecc71;
 }
-
-.content:before{
+.content:before
+{
 	content: '';
 	position: absolute;
 	height: 17%;
@@ -139,16 +139,16 @@ ul li.colored{
     left: 0;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
 }
-
-.background{
+.background
+{
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
 }
-
-.background .bg{
+.background .bg
+{
 	position: absolute;
 	width: 120%;
 	top: 50%;
@@ -157,7 +157,7 @@ ul li.colored{
 	opacity: 0;
 	transition: .5s;
 }
-
-.bg.show{
+.bg.show
+{
 	opacity: 1;
 }
