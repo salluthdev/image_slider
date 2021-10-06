@@ -129,17 +129,3 @@ ul li.colored
 {
 	background-color: #2ecc71;
 }
-.content:before
-{
-	content: '';
-	position: absolute;
-	height: 17%;
-	width: 100%;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-}
-.bg.show
-{
-	opacity: 1;
-}
