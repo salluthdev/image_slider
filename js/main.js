@@ -52,8 +52,6 @@ function optionFunc(){
 	slide();
 }
 
-
-
 slider.addEventListener('transitionend', () => {
 	if(slides[index].id === "first"){
 		slider.style.transition = "none";
