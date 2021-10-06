@@ -25,7 +25,7 @@ function btnCheck(){
 	if(this.id === "prev"){
 		index--;
 		if(op_index === 0){
-			op_index = 4;
+			op_index = 3;
 		}
 		else{
 			op_index--;
@@ -33,7 +33,7 @@ function btnCheck(){
 	}
 	else{
 		index++;
-		if(op_index === 4){
+		if(op_index === 3){
 			op_index = 0;
 		}
 		else{
